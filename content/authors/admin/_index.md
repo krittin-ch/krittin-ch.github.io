@@ -43,7 +43,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/krittin-ch
   - icon: brands/linkedin
-    url: www.linkedin.com/in/krittin-chaowakarn
+    url: https://www.linkedin.com/in/krittin-chaowakarn
   # - icon: academicons/google-scholar
   #   url: https://scholar.google.com/
   # - icon: academicons/orcid
