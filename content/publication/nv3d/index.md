@@ -37,7 +37,7 @@ links:
 - type: pdf
   url: uploads/cv.pdf
 - type: code
-  url: https://github.com/HugoBlox/hugo-blox-builder
+  url: https://github.com/krittin-ch/NV3D
   
 # - type: preprint
 #   provider: arxiv
