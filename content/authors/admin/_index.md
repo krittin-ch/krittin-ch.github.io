@@ -71,7 +71,7 @@ work:
     date_start: 2024-06-01
     date_end: 2024-07-01
     summary: |
-      - Developed Thai SNOMED-CT using machine translation, achieving over 80% improvement in resolving translation ambiguities (≈ 70 out of 86 issues solved from a dataset of 385)
+      - Developed Thai [SNOMED-CT](https://www.snomed.org/) using machine translation, achieving over 80% improvement in resolving translation ambiguities (≈ 70 out of 86 issues solved from a dataset of 385)
       - Designed algorithms to match Thai and English sentences from books based on sentence embedding
       and similarity, reducing manual matching time by 80% (50 hours to 10 hours)
       - Performed statistical analysis on Thai-English sentence pairs to select optimal training data, then finetuned the machine translation model for book translation
