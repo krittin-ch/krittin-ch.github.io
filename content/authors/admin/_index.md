@@ -83,11 +83,11 @@ work:
     date_end: 2025-04-01
     summary: |
       - Conducted research on LiDAR-based 3D object detection for autonomous vehicles with the integration
-      of local features, using PyTorch, SpConv, and OpenPCDet
+      of local features, using PyTorch, [SpConv](https://github.com/traveller59/spconv), and [OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
       - Accelerated data processing by 6.67× through CUDA C++ parallelization, cutting runtime from 0.10s
       (PyTorch) to 0.015s
-      - Achieved 86.60, 59.91, and 80.18 mAP for car, pedestrian, and cyclist detection; research under
-      review at Image and Vision Computing (Elsevier Q1)
+      - Achieved 86.60, 59.91, and 80.18 mAP for car, pedestrian, and cyclist detection on the [KITTI dataset](https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d); research under
+      review at [Image and Vision Computing](https://www.sciencedirect.com/journal/image-and-vision-computing) (Elsevier Q1)
   - position: Research Assistant Intern
     company_name: NSTDA
     company_url: ''
