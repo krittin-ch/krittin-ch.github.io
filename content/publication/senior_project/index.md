@@ -27,7 +27,7 @@ publication: ""
 publication_short: ""
 
 abstract: >
-  The abstract
+  The abstract (I have not asked Tongroth,  but if you see, thank you na)
   
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -46,18 +46,11 @@ featured: true
 links:
 - type: pdf
   url: uploads/BA-KRITTIN.pdf
-# - type: slides
-#   url: https://github.com/krittin-ch/NV3D
-# - type: preprint
-#   provider: arxiv
-#   id: 1512.04133v1
-# - type: slides
-#   url: https://www.slideshare.net/
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 'Image credit: Tongroth Thorng'
   focal_point: ""
   preview_only: false
 
