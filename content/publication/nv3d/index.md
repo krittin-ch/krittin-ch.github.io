@@ -5,10 +5,10 @@ authors:
 - Paramin Sangwongngam
 - Nang Htet Htet Aung
 - Chalie Charoenlarpnopparut
-date: "2019-04-07T00:00:00Z"
+date: "2025-04-01T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-04-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -38,7 +38,6 @@ links:
   url: uploads/KRITTIN-CHAOWAKARN-CV.pdf
 - type: code
   url: https://github.com/krittin-ch/NV3D
-  
 # - type: preprint
 #   provider: arxiv
 #   id: 1512.04133v1
@@ -66,6 +65,10 @@ projects:
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ""
+
+# disable social network
+share: false
+
 ---
 
 This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
