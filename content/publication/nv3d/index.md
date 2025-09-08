@@ -35,7 +35,7 @@ featured: true
 
 links:
 - type: pdf
-  url: uploads/cv.pdf
+  url: uploads/KRITTIN-CHAOWAKARN-CV.pdf
 - type: code
   url: https://github.com/krittin-ch/NV3D
   

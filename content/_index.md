@@ -19,7 +19,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/cv.pdf
+        url: uploads/Krittin-Chaowakarn-CV.pdf
     design:
       css_class: dark
       # Avatar customization
@@ -70,5 +70,25 @@ sections:
       date_format: 'Jan 2006'
       # Education or Experience section first?
       is_education_first: true
-
+  - block: markdown
+    content:
+      title: Academic/Teaching Experience
+      text: |-
+        During my undergraduate studies at SIIT, I was assigned as a teaching assistant in five courses with grading responsibilities and in one laboratory course.
+        {{< spoiler text="TA Experience" >}}
+        **Jan 2025 - May 2025**: Electromagnetics   
+        
+        **Aug 2024 - Dec 2024**: Linear Algebra and Optimization Method, Digital Circuits Laboratory  
+        
+        **Jan 2024 - May 2024**: Electromagnetics  
+        
+        **Aug 2023 - Dec 2023**: Computational Tools in Electrical Engineering  
+        
+        **Jan 2023 - May 2023**: Basic Electrical Engineering  
+        {{< /spoiler >}}
+    design:
+      view: article
+      columns: 1
+      style: wide
+      
 ---
