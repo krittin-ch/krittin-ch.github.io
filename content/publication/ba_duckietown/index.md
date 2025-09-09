@@ -12,7 +12,7 @@ author_notes:
 date: "2025-09-10T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-09-10T00:00:00Z"
+publishDate: "2025-08-10T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -51,7 +51,7 @@ featured: true
 
 links:
 - type: pdf
-  url: uploads/BA-KRITTIN.pdf
+  url: uploads/BA-Krittin.pdf
 - type: slides
   url: https://github.com/krittin-ch/NV3D
 # - type: preprint
