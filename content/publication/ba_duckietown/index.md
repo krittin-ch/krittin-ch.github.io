@@ -33,7 +33,9 @@ abstract: >
   focuses on a real-time object detection system and its GPU utilization, and therefore highlights
   two important improvements at the same time:
   1. enabling more targets for object detection for the Duckietown platform, and
-  2. avoiding CPU utilization by migrating an object detection model to GPU.
+  2. avoiding CPU utilization by migrating an object detection model to GPU. <br/> <br/>
+  
+  If you find this project interesting, please see [**our lab website**](https://www.ce.cit.tum.de/en/lis/home/) for more projects and research opportunities.
   
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -65,7 +67,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 
   focal_point: ""
   preview_only: false
 
@@ -89,6 +91,8 @@ share: false
 
 ---
 
+
+
 <!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
 
 {{% callout note %}}
@@ -96,3 +100,18 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 {{% /callout %}}
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
+
+# Imoprtant Keys
+
+## 1. Unit Hypersphere for Data Selection
+
+We applied the concept of unit hypersphere and hierachical feature of CNN to perform k-clustering. 
+Ths way we can truly select distinguished images for a dataset. 
+However, one thing to remark is its difference to the original implematation from [X] in that the original work actually forces all embeddings through sophisificated loss function while ours does not do so, implicitly creating less accurate results.
+
+![screen reader text](unit-hypersphere.png "Visualization of the L2 norm of hidden features projected onto a unit hypersphere. The figure illustrates how different images are distributed across the hypersphere.")
+
+## 2. Study of Deep Learning on Limited Resource
+
+Our CNN models were tested and deployed on the NVIDIA Jetson Nano 4GB, introduced in May 2019 and using containing limited RAM.
+We have studied on hardware utilization of RAM, CPU, and GPU when the inference runs on CPU and GPU to lay the foundation for our lab future research.

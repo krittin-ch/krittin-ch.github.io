@@ -36,30 +36,6 @@ sections:
           size: cover
           position: center
           parallax: true
-  # - block: markdown
-  #   id: research  
-  #   content:
-  #     title: '📚 My Research'
-  #     subtitle: ''
-  #     text: |-
-  #       <small>
-  #       I have involved in research environment and AI since my first summer of undergraduate study where I had a chance to have an intership with NECTEC. My first project was to create an MLP for mmWave beam and blockage prediction utilizing Sub-6 GHz signals under the supervision of Dr. Paramin Sangwongnam.
-
-  #       In my second interhsip, I researched on multi-object detection for autonomous driving leading to the project underreview Image and Vision Computing journal  (SJR: Q1, Cite Score: 7.1, Impact Factor: 5.2) under the supervision of Dr. Paramin Sangwongnam and Assoc. Prof. Dr.Chalie Charoenlarpnopparut.
-
-  #       I also had the opportunity to collaborate with
- 
-  #       </small>
-
-  #       Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-  #       I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-  #       Please reach out to collaborate 😃
-
-  #       National Electronics and Computer Technology Center (NECTEC) is a statutory government organization under the National Science and Technology Development Agency (NSTDA).
-  #   design:
-  #     columns: '1'
   - block: collection
     id: research
     content:
