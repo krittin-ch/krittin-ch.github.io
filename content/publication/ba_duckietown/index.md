@@ -51,9 +51,11 @@ featured: true
 
 links:
 - type: pdf
-  url: uploads/BA-Krittin.pdf
+  url: uploads/ba_duckietown/BA-Krittin.pdf
 - type: slides
-  url: https://github.com/krittin-ch/NV3D
+  url: uploads/ba_duckietown/BA-Presentation-Krittin.pdf
+- type: slides
+  url: uploads/ba_duckietown/BA-Presentation-Krittin.pptx
 # - type: preprint
 #   provider: arxiv
 #   id: 1512.04133v1
