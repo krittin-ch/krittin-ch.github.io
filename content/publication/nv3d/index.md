@@ -34,8 +34,8 @@ featured: true
 #     arxiv: 1512.04133v1
 
 links:
-- type: pdf
-  url: uploads/KRITTIN-CHAOWAKARN-CV.pdf
+# - type: pdf
+#   url: uploads/KRITTIN-CHAOWAKARN-CV.pdf
 - type: code
   url: https://github.com/krittin-ch/NV3D
 # - type: preprint

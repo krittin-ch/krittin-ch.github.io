@@ -44,8 +44,8 @@ featured: true
 #     arxiv: 1512.04133v1
 
 links:
-- type: pdf
-  url: uploads/BA-KRITTIN.pdf
+# - type: pdf
+#   url: uploads/BA-KRITTIN.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
