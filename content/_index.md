@@ -46,7 +46,7 @@ sections:
           - publication
         exclude_featured: false
     design:
-      view: citation
+      view: new-citation
   - block: resume-experience
     id: experience
     content:
