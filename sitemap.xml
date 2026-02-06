@@ -1,0 +1,29 @@
+<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--
+ created with Free Online Sitemap Generator www.xml-sitemaps.com 
+-->
+<url>
+<loc>https://krittin-ch.github.io/</loc>
+<lastmod>2025-11-06T08:45:51+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://krittin-ch.github.io/srcs/info/cv.pdf</loc>
+<lastmod>2025-11-06T08:45:51+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>
+https://krittin-ch.github.io/srcs/research/ba_duckietown/BA-Krittin.pdf
+</loc>
+<lastmod>2025-11-06T08:45:51+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>
+https://krittin-ch.github.io/srcs/research/ba_duckietown/BA-Presentation-Krittin.pdf
+</loc>
+<lastmod>2025-11-06T08:45:51+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+</urlset>
