@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Krittin Chaowakarn</title>
+    <meta name="author" content="Krittin Chaowakarn" />
+
+    <link rel="shortcut icon" href="srcs/favicon/icon.png" type="image/x-icon" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            line-height: 1.5;
+        }
+
+        @media (max-width: 639px) {
+            html {
+                font-size: 85%;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-white text-zinc-900 m-2 sm:m-0">
+    <div class="mx-auto w-full max-w-4xl px-4 py-10">
+
+        <!-- HERO -->
+        <!-- <section class="rounded-3xl border border-zinc-200 bg-white p-6 shadow-md sm:p-8"> -->
+        <section class="p-6">
+            <div class="grid items-center gap-8 sm:grid-cols-[1.6fr_0.9fr]">
+                <div class="mt-5 flex justify-center sm:hidden">
+                    <div class="h-56 w-56 overflow-hidden rounded-3xl ring-1 ring-zinc-200">
+                        <img src="srcs/KrittinCh.jpg" alt="Profile photo" class="h-full w-full object-contain" />
+                    </div>
+                </div>
+
+                <div>
+                    <h1 class="text-center text-3xl font-semibold tracking-tight sm:text-left sm:text-4xl">
+                        Krittin Chaowakarn
+                    </h1>
+                    <p class="mt-2 text-center text-sm text-zinc-600 sm:text-left">
+                        k.chaowakarn [at] gmail [dot] com
+                    </p>
+
+                    <p class="mt-6 text-zinc-700">
+                        Krittin Chaowakarn completed a bachelor's degree in
+                        <a class="font-medium text-sky-700 hover:underline"
+                            href="https://www.siit.tu.ac.th/page_a.php?cid=85&lang=eng" target="_blank"
+                            rel="noopener noreferrer">
+                            Electrical Engineering
+                        </a>
+                        at
+                        <a class="font-medium text-sky-700 hover:underline"
+                            href="https://www.siit.tu.ac.th/index.php?&lang=eng" target="_blank"
+                            rel="noopener noreferrer">
+                            Sirindhorn International Institute of Technology
+                        </a>,
+                        <a class="font-medium text-sky-700 hover:underline" href="https://tu.ac.th/en" target="_blank"
+                            rel="noopener noreferrer">
+                            Thammasat University
+                        </a>.
+                        His research experience includes multi-object detection for autonomous vehicles and real-time
+                        object
+                        detection for small-scale autonomous driving simulations.
+                        <!-- He is currently preparing to pursue graduate studies in computer science, with a research focus
+                        on spatially informed world models and embodied AI. -->
+                        <br><br>
+                        If you are interested in his work or future research directions, please do not hesitate to
+                        contact him.
+                    </p>
+
+                    <!-- LINKS -->
+                    <div class="mt-6 flex flex-wrap justify-center gap-2 sm:justify-start">
+
+                        <a class="rounded-full border border-zinc-200 bg-white px-4 py-2 text-sm font-medium
+            transition-all duration-300 ease-out
+            hover:bg-zinc-50 hover:-translate-y-0.5 hover:scale-105 hover:shadow-md" href="srcs/info/CV.pdf"
+                            target="_blank" rel="noopener noreferrer">CV</a>
+
+                        <a class="rounded-full border border-zinc-200 bg-white px-4 py-2 text-sm font-medium
+            transition-all duration-300 ease-out
+            hover:bg-zinc-50 hover:-translate-y-0.5 hover:scale-105 hover:shadow-md"
+                            href="https://github.com/krittin-ch" target="_blank" rel="noopener noreferrer">GitHub</a>
+
+                        <a class="rounded-full border border-zinc-200 bg-white px-4 py-2 text-sm font-medium
+            transition-all duration-300 ease-out
+            hover:bg-zinc-50 hover:-translate-y-0.5 hover:scale-105 hover:shadow-md"
+                            href="https://www.linkedin.com/in/krittin-chaowakarn" target="_blank"
+                            rel="noopener noreferrer">LinkedIn</a>
+                        <!-- 
+                        <a class="rounded-full border border-zinc-200 bg-white px-4 py-2 text-sm font-medium
+            transition-all duration-300 ease-out
+            hover:bg-zinc-50 hover:-translate-y-0.5 hover:scale-105 hover:shadow-md" href="courses.html">Courses</a> -->
+
+                    </div>
+                </div>
+
+                <!-- PHOTO (square + fixed size) -->
+                <div class="hidden sm:flex mx-auto w-full max-w-xs sm:max-w-none justify-center sm:justify-end">
+                    <div class="h-72 w-72 overflow-hidden rounded-3xl ring-1 ring-zinc-200">
+                        <img src="srcs/KrittinCh.jpg" alt="Profile photo" class="h-full w-full object-contain" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESEARCH -->
+        <section class="mt-10">
+            <div class="mb-4 flex items-baseline justify-between">
+                <h2 class="text-xl font-semibold tracking-tight">Research</h2>
+            </div>
+
+            <div class="space-y-4">
+                <!-- ITEM 1 -->
+                <article class="rounded-3xl border border-zinc-200 bg-white p-5 shadow-md shadow-blue-300 
+                    transition-transform duration-500 ease-out lg:hover:-translate-y-2">
+
+                    <div class="grid gap-5 sm:grid-cols-[220px_1fr] sm:items-center">
+
+                        <div onclick="toggleImages(this)" class="group relative overflow-hidden rounded-2xl ring-1 ring-zinc-200 
+            w-72 h-72 mx-auto sm:mx-0 sm:w-[220px] sm:h-[220px] cursor-pointer sm:cursor-default">
+
+                            <img src="srcs/research/ba_duckietown/unit.jpg" alt="Duckietown detail"
+                                class="toggle-img absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-500 ease-in-out sm:group-hover:opacity-100" />
+
+                            <img src="srcs/research/ba_duckietown/img.png" alt="Duckietown preview"
+                                class="toggle-img absolute inset-0 h-full w-full object-contain transition-opacity duration-500 ease-in-out sm:group-hover:opacity-0" />
+                        </div>
+
+                        <div>
+                            <h3 class="text-lg font-semibold leading-snug">
+                                Real-Time Object Detection for Autonomous Driving: An Empirical Study in a Small-Scale
+                                Urban Environment
+                            </h3>
+
+                            <p class="mt-2 text-sm text-zinc-600">
+                                <strong class="text-zinc-900">Krittin Chaowakarn</strong>,
+                                Michael Meidinger <em>(PhD advisor)</em>,
+                                <a class="font-medium text-sky-700 hover:underline"
+                                    href="https://www.professoren.tum.de/en/herkersdorf-andreas" target="_blank"
+                                    rel="noopener noreferrer">Andreas Herkersdorf</a> <em>(supervisor)</em><br />
+                                <em>Bachelor's Thesis (TUM)</em>, 2025
+                            </p>
+
+                            <div class="mt-3 flex flex-wrap gap-x-2 gap-y-1 text-sm">
+                                <a class="font-medium text-sky-700 hover:underline"
+                                href="srcs/research/ba_duckietown/BA-Full.pdf" target="_blank"
+                                rel="noopener noreferrer">Thesis (Full)</a>
+                                <span class="text-zinc-400">/</span>
+                                <a class="font-medium text-sky-700 hover:underline"
+                                    href="srcs/research/ba_duckietown/BA.pdf" target="_blank"
+                                    rel="noopener noreferrer">Thesis</a>
+                                <span class="text-zinc-400">/</span>
+                                <a class="font-medium text-sky-700 hover:underline"
+                                    href="srcs/research/ba_duckietown/BA-Presentation-Krittin.pdf" target="_blank"
+                                    rel="noopener noreferrer">Slides (PDF)</a>
+                                <span class="text-zinc-400">/</span>
+                                <a class="font-medium text-sky-700 hover:underline"
+                                    href="srcs/research/ba_duckietown/BA-Presentation-Krittin.pptx" target="_blank"
+                                    rel="noopener noreferrer">Slides (PowerPoint)</a>
+                            </div>
+
+                            <p class="mt-4 text-zinc-700">
+                                A comprehensive study on object detection using
+                                <a class="font-medium text-sky-700 hover:underline" href="https://duckietown.com/"
+                                    target="_blank" rel="noopener noreferrer">Duckietown</a>
+                                and
+                                <a class="font-medium text-sky-700 hover:underline" href="https://docs.ultralytics.com/"
+                                    target="_blank" rel="noopener noreferrer">YOLO</a>,
+                                covering analysis of latency, throughput, and hardware utilization through YOLO versions
+                                8–12 on NVIDIA
+                                Jetson Nano 4GB.
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+
+                <!-- ITEM 2 -->
+                <!-- <article class="rounded-3xl border border-zinc-200 bg-white p-5 shadow-sm"> -->
+                <article class="bg-white p-5">
+                    <div class="grid gap-5 sm:grid-cols-[220px_1fr] sm:items-center">
+                        <div class="relative overflow-hidden rounded-2xl ring-1 ring-zinc-200 
+            w-72 h-72 mx-auto sm:mx-0 sm:w-[220px] sm:h-[220px]">
+                            <img src="srcs/research/senior_project/featured.png" alt="Senior project illustration"
+                                class="absolute inset-0 h-full w-full object-contain" />
+                        </div>
+
+                        <div>
+                            <h3 class="text-lg font-semibold leading-snug">
+                                Autonomous Human Following Robot System for Multi-Perspective Visualization
+                            </h3>
+
+                            <p class="mt-2 text-sm text-zinc-600">
+                                Tongroth Thorng, <strong class="text-zinc-900">Krittin Chaowakarn</strong>,
+                                Ned Sureechainirun,
+                                <a class="font-medium text-sky-700 hover:underline"
+                                    href="https://www.siit.tu.ac.th/page_bx.php?cid=106&cno=66" target="_blank"
+                                    rel="noopener noreferrer">Itthisek Nilkhamhang</a> <em>(advisor)</em> <br />
+                                <em>Senior Project (SIIT)</em>, 2025
+                            </p>
+
+                            <p class="mt-4 text-zinc-700">
+                                Contributed to multi-robot formation research using
+                                <a class="font-medium text-sky-700 hover:underline"
+                                    href="https://github.com/automaticaddison/yahboom_rosmaster" target="_blank"
+                                    rel="noopener noreferrer">Yahboom robots</a>
+                                and
+                                <a class="font-medium text-sky-700 hover:underline" href="https://www.ros.org/"
+                                    target="_blank" rel="noopener noreferrer">ROS 2</a>,
+                                simulating in
+                                <a class="font-medium text-sky-700 hover:underline" href="https://gazebosim.org/"
+                                    target="_blank" rel="noopener noreferrer">Gazebo</a>,
+                                and deployed a vision-based target tracking system integrating
+                                <a class="font-medium text-sky-700 hover:underline" href="https://docs.ultralytics.com/"
+                                    target="_blank" rel="noopener noreferrer">YOLO</a>
+                                (detection), DeepSORT (tracking), and face recognition for human-following robots.
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+
+                <!-- ITEM 3 (hover swap) -->
+                <article class="rounded-3xl border border-zinc-200 shadow-md bg-white p-5 shadow-blue-300
+                                transition-transform duration-500 ease-out
+                                lg:hover:-translate-y-2">
+
+
+                    <!-- <article class="bg-white p-5"> -->
+                    <div class="grid gap-5 sm:grid-cols-[220px_1fr] sm:items-center">
+                        <div onclick="toggleImages(this)" class="group relative overflow-hidden rounded-2xl ring-1 ring-zinc-200 
+                            w-72 h-72 mx-auto sm:mx-0 sm:w-[220px] sm:h-[220px] 
+                            cursor-pointer sm:cursor-default">
+
+                            <img src="srcs/research/nv3d/original.png" alt="NV3D original preview"
+                                class="absolute inset-0 h-full w-full object-contain transition-opacity" />
+
+                            <img src="srcs/research/nv3d/50_and_fov_drop.png" alt="NV3D filtered preview"
+                                class="toggle-img absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-500 ease-in-out sm:group-hover:opacity-100" />
+                        </div>
+
+                        <div>
+                            <h3 class="text-lg font-semibold leading-snug">
+                                NV3D: Leveraging Spatial Shape Through Normal Vector-based 3D Object Detection
+                            </h3>
+
+                            <p class="mt-2 text-sm text-zinc-600">
+                                <strong class="text-zinc-900">Krittin Chaowakarn</strong>,
+                                <a class="font-medium text-sky-700 hover:underline"
+                                    href="https://paramins.wordpress.com" target="_blank"
+                                    rel="noopener noreferrer">Paramin Sangwongngam</a>,
+                                <a class="font-medium text-sky-700 hover:underline"
+                                    href="https://ieeexplore.ieee.org/author/973080756908410" target="_blank"
+                                    rel="noopener noreferrer">Nang Htet Htet Aung</a>,
+                                <a class="font-medium text-sky-700 hover:underline"
+                                    href="https://www.siit.tu.ac.th/page_bx.php?cid=106&cno=60&show=" target="_blank"
+                                    rel="noopener noreferrer">Chalie Charoenlarpnopparut</a><br />
+                                <em>arXiv</em>, 2025
+                            </p>
+
+                            <div class="mt-3 flex flex-wrap gap-x-2 gap-y-1 text-sm">
+                                <a class="font-medium text-sky-700 hover:underline"
+                                    href="https://arxiv.org/abs/2510.11632" target="_blank"
+                                    rel="noopener noreferrer">arXiv</a>
+                                <span class="text-zinc-400">/</span>
+                                <a class="font-medium text-sky-700 hover:underline"
+                                    href="https://github.com/krittin-ch/NV3D" target="_blank"
+                                    rel="noopener noreferrer">Code</a>
+                            </div>
+
+                            <p class="mt-4 text-zinc-700">
+                                Redundant LiDAR point clouds can be removed up to 55% through normal vector
+                                density-based and FOV-aware bin-based sampling. </br> </br>
+
+                                Presented at a bilateral meeting between the
+                                <a class="font-medium text-sky-700 hover:underline" href="https://www.nict.go.jp/en/"
+                                    rel="noopener noreferrer">
+                                    National Institute of Information and Communications Technology
+                                </a>
+                                and the
+                                <a class="font-medium text-sky-700 hover:underline" href="https://www.nectec.or.th/en/"
+                                    rel="noopener noreferrer">
+                                    National Electronics and Computer Technology Center
+                                </a>
+                                as part of a smart city research collaboration between Thailand and Japan.
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+
+                <!-- TEACHING -->
+                <section class="mt-10 pt-4">
+                    <!-- <h2 class="mb-4 text-xl font-semibold tracking-tight">Teaching and Academic Service</h2>
+                    <div class="rounded-3xl border border-zinc-200 bg-white p-6 shadow-md"> -->
+                    <h2 class="text-xl font-semibold tracking-tight">Teaching and Academic Service</h2>
+                    <div class="px-6 pb-6 pt-3">
+                        <p class="text-zinc-700">
+                            Over the past 2.5 years, he has served in five grading roles and as a laboratory teaching
+                            assistant.
+                            He is currently serving as a teaching assistant for three additional courses this
+                            semester (January–May 2026)*, as well as a grader for a master's-level course.
+                            <!-- He is currently serving as a teaching assistant for three additional courses this
+                            semester (January–May 2026)* before beginning his graduate studies. -->
+                        </p>
+
+                        <div class="mt-4 text-zinc-700">
+                            <!-- Laboratories -->
+                            <div class="border rounded-lg p-3">
+                                <input id="labs" type="checkbox" class="peer hidden" />
+
+                                <label for="labs" class="flex cursor-pointer items-center justify-between font-semibold select-none
+           peer-checked:[&>span]:rotate-180">
+                                    Laboratories
+                                    <span class="inline-block transition-transform duration-300">▼</span>
+                                </label>
+
+                                <div class="grid grid-rows-[0fr] peer-checked:grid-rows-[1fr]
+           transition-[grid-template-rows] duration-300 ease-in-out">
+                                    <div class="overflow-hidden">
+                                        <ul class="mt-2 list-disc space-y-2 pl-5">
+                                            <li>Control Systems Laboratory (Jan–May 2026)*</li>
+                                            <li>Electronics and Microelectronics Laboratories (Jan–May 2026)*</li>
+                                            <li>Electrical Engineering Crafting Skill (Jan–May 2026)*</li>
+                                            <li>Digital Circuits Laboratory (Aug–Dec 2024)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Grading Roles -->
+                            <div class="border rounded-lg p-3 mt-4">
+                                <input id="grading" type="checkbox" class="peer hidden" />
+
+                                <label for="grading" class="flex cursor-pointer items-center justify-between font-semibold select-none
+           peer-checked:[&>span]:rotate-180">
+                                    Grading Roles
+                                    <span class="inline-block transition-transform duration-300">▼</span>
+                                </label>
+
+                                <div class="grid grid-rows-[0fr] peer-checked:grid-rows-[1fr]
+           transition-[grid-template-rows] duration-300 ease-in-out">
+                                    <div class="overflow-hidden">
+                                        <ul class="mt-2 list-disc space-y-2 pl-5">
+                                            <li>Computational Mathematics: Probability — Master's Level (Mar
+                                                2026–Present)*</li>
+                                            <li>Electromagnetics (Jan–May 2024, Jan–May 2025)</li>
+                                            <li>Linear Algebra and Optimization Methods (Aug–Dec 2024)</li>
+                                            <li>Computational Tools in Electrical Engineering (Aug–Dec 2023)</li>
+                                            <li>Basic Electrical Engineering (Jan–May 2023)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- AWARDS -->
+                <section class="mt-10">
+                    <!-- <h2 class="mb-4 text-xl font-semibold tracking-tight">Honors and Awards</h2> -->
+                    <!-- <div class="rounded-3xl border border-zinc-200 bg-white p-6 shadow-md"> -->
+                    <h2 class="text-xl font-semibold tracking-tight">Honors and Awards</h2>
+                    <div class="px-6 pb-6 pt-3">
+                        <ul class="list-disc space-y-2 pl-5 text-zinc-700">
+                            <li>
+                                Young Scientist and Technologist Program: Fully funded undergraduate study at SIIT
+                                (acceptance
+                                rate ≈ 0.25%)
+                            </li>
+                            <li>
+                                Top 100 Team–KPIT Sparkle 2024: Ranked among top 100 teams (~0.45%) worldwide in KPIT
+                                Sparkle
+                                2024, a global
+                                student innovation contest focused on vehicle technologies
+                            </li>
+                            <li>
+                                Keio University International Workshop 2023: Selected as one of 12 institute
+                                representatives to
+                                attend a
+                                workshop at Keio University
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+            
+            <!-- FOOTER -->
+            <footer class="mt-10 text-center text-sm text-zinc-500">
+                Adapted from
+                <a class="font-medium text-sky-700 hover:underline"
+                    href="https://github.com/jonbarron/jonbarron.github.io" target="_blank" rel="noopener noreferrer">
+                    Jon Barron's website
+                </a>
+            </footer>
+</body>
+
+</html>
+
+<script>
+    function toggleImages(box) {
+        // Only toggle on phone-sized screens
+        if (window.innerWidth >= 640) return;
+
+        const imgs = box.querySelectorAll('.toggle-img');
+        imgs.forEach(img => img.classList.toggle('opacity-0'));
+    }
+</script>
